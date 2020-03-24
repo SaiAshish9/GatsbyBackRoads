@@ -7,7 +7,6 @@ export default class tours extends Component {
     render() {
         return (
             <Layout>
-
           
             </Layout>
         )

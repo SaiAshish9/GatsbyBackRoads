@@ -4,7 +4,9 @@ import {Link} from 'gatsby'
 
 import {Layout} from '../components/Layout'
 
- const blog = () => {
+// import {graphql} from 'gatsby'
+
+ const blog = (props) => {
     return (
         <Layout>
             
@@ -13,8 +15,19 @@ import {Layout} from '../components/Layout'
 home
 </Link>
 
+
         </Layout>
     )
 }
+
+// {props.data.site.siteMetadata.title}
+// export const query=graphql`
+// {
+// site{
+//         siteMetadata{
+//             title
+//     }
+// }}
+// `
 
 export default blog
