@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 
-import {Link} from 'gatsby'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 import {FaAlignRight} from 'react-icons/fa'
 
@@ -49,9 +49,9 @@ className={isOpen?`${styles.navLinks} ${styles.showNav}`:
 {links.map((i,k)=>{
     return (
         <li key={k}> 
-          <Link to={i.path}>
+          <AniLink fade to={i.path}>
           {i.text}
-          </Link>
+          </AniLink>
         </li>
     )
 })}
