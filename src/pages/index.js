@@ -16,6 +16,9 @@ import Services from '../components/Home/Services'
 
 import {graphql} from 'gatsby'
 
+
+import FeaturedTours from '../components/Home/FeaturedTours'
+
 export default ({data}) => (
 
 
@@ -39,6 +42,8 @@ explore tours
 <About/>
 
 <Services/>
+
+<FeaturedTours/>
 
     </Layout>
   )

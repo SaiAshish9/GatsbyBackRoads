@@ -32,14 +32,16 @@ data:['1','2']
 
     `gatsby-transformer-sharp`,
    
-   
     `gatsby-plugin-sharp`,
     
      'gatsby-plugin-sass',
     
      `gatsby-plugin-styled-components`,
 
-     `gatsby-plugin-transition-link`
+     `gatsby-plugin-transition-link`,
+
+     `gatsby-plugin-playground`,
+
 
 ]
 }
