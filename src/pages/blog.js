@@ -6,6 +6,8 @@ import {Layout} from '../components/Layout'
 
 import {graphql} from 'gatsby'
 
+import BlogList from '../components/Blog/Bloglist'
+
  const blog = ({data}) => {
     return (
         <Layout>
@@ -17,21 +19,11 @@ img={data.defaultBcg.childImageSharp.fluid}
 />
 
 
-
+<BlogList/>
 
         </Layout>
     )
 }
-
-// {props.data.site.siteMetadata.title}
-// export const query=graphql`
-// {
-// site{
-//         siteMetadata{
-//             title
-//     }
-// }}
-// `
 
 
 export const query=graphql`
